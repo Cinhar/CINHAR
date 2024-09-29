@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CINHAR - Clinical Imaging Network for Health Awareness and Research</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #2c7d89;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            position: relative;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Dropdown Menu */
+        nav ul li:hover ul {
+            display: block;
+        }
+
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #2c7d89;
+            padding: 10px;
+            list-style: none;
+            min-width: 150px;
+        }
+
+        nav ul ul li {
+            margin: 0;
+        }
+
+        nav ul ul li a {
+            color: white;
+            padding: 5px 10px;
+            display: block;
+        }
+
+        nav ul ul li a:hover {
+            background-color: #1c515e;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h3 {
+            color: #2c7d89;
+        }
+
+        /* Increase space and font size below headings */
+        h1 {
+            margin-bottom: 30px;
+            font-size: 2.2rem; /* Reduced heading size from 2.5rem to 2.2rem */
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            font-size: 2rem; /* Added for potential future h2 usage */
+        }
+
+        h3 {
+            margin-bottom: 30px;
+            font-size: 2.2rem; /* Reduced heading size from 2.5rem to 2.2rem */
+        }
+
+        /* Mission and Vision Custom Styles */
+        #mission h3 {
+            font-size: 2.2rem; /* Reduced heading font size */
+        }
+
+        #mission p {
+            font-size: 1.25rem; /* Increase paragraph font size */
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #1c515e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer-links, .social-links {
+            margin: 10px 0;
+        }
+
+        .footer-links a, .social-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Clinical Imaging Network for Health Awareness and Research (CINHAR)</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#centers">Collaboration Centers/Hospitals</a>
+                    <ul>
+                        <li><a href="#aster">Aster Medicity</a></li>
+                        <li><a href="#rajagiri">Rajagiri Hospital</a></li>
+                    </ul>
+                </li>
+                <li><a href="#governance">Governing Body</a></li>
+                <li><a href="#rules">Rules & Regulations</a></li> <!-- Added here -->
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#proposal">Download Proposal</a></li> <!-- Added Download Proposal -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Mission and Vision Section -->
+        <section id="mission">
+            <h3>Mission and Vision</h3>
+            <p>Our mission is to improve community health through advanced imaging data analysis and collaborative research, connecting global experts to advance clinical studies in India.
+            We aim to be a leading scientific society, integrating cutting-edge imaging into healthcare and fostering multi-centric research to enhance health outcomes worldwide.
+            As part of our commitment, we provide free imaging scans to volunteering patients. Their participation supports global research efforts while improving access to advanced diagnostics, particularly in underserved communities.</p>
+        </section>
+
+        <!-- Operational Model Section -->
+        <section id="about">
+            <h3>Operational Model</h3>
+            <p>CINHAR operates through a collaborative model, partnering with global experts to conduct both multi-centric and single-centric studies. Funding is routed through collaborating universities, which allocate resources to CINHAR for project implementation. The network includes technical and clinical consultants from India, ensuring local expertise in project execution. CINHAR covers all imaging and neurological examination costs through research funds, making services free for the community. Each project is led by a Principal Investigator (PI) abroad, supported by consultants in India, as well as coordinators and data analysts at each center. Project details, goals, and budgets are formalized through Memoranda of Understanding (MoUs) and Clinical Study Agreements.</p>
+        </section>
+
+        <!-- Participating Centers Section -->
+        <section id="centers">
+            <h3>Collaboration Centers/Hospitals</h3>
+            <p><strong id="aster">Aster Medicity</strong></p>
+            <p>Aster Medicity is a multi-specialty hospital located in Kochi, Kerala, equipped with advanced imaging facilities.</p>
+            <p><strong id="rajagiri">Rajagiri Hospital</strong></p>
+            <p>Rajagiri Hospital is known for its comprehensive healthcare services and state-of-the-art imaging technology.</p>
+        </section>
+
+        <!-- Governance Section -->
+        <section id="governance">
+            <h3>Governing Body</h3>
+            <p>Our governing body includes prominent figures in healthcare and imaging technology. Meet the board and the advisory committee responsible for guiding CINHAR’s mission.</p>
+        </section>
+
+        <!-- Download Proposal Section -->
+        <section id="proposal">
+            <h3>Download Proposal</h3>
+            <p>To download the proposal for project submission, click the link below:</p>
+            <p><a href="path/to/your-proposal.pdf" download>Download Project Proposal</a></p> <!-- Link to proposal -->
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact">
+            <h3>Contact Us</h3>
+            <p>If you have inquiries or collaboration opportunities, please contact:</p>
+            <p><strong>Dr.Joseph S. Paul</strong><br>
+            4E, Si Coral crust<br>
+            Ernakulam, 682018, India<br>
+            Tel: <a href="tel:+919846627817">+919846627817</a><br>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-links">
+            <a href="#mission">Mission & Vision</a> |
+            <a href="#centers">Collaboration Centers/Hospitals</a> |
+            <a href="#governance">Governing Body</a> |
+            <a href="#rules">Rules & Regulations</a> |
+            <a href="#proposal">Download Proposal</a> <!-- Added here -->
+        </div>
+        <div class="social-links">
+            <a href="https://facebook.com">Facebook</a> |
+            <a href="https://twitter.com">Twitter</a>
+        </div>
+        <p>&copy; 2024 Clinical Imaging Network for Health Awareness and Research (CINHAR). All rights reserved.</p>
+        <div class="legal">
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+</body>
+</html>
